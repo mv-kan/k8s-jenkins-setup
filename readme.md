@@ -1,6 +1,9 @@
 https://www.jenkins.io/doc/book/installing/kubernetes/
+## PRE
 
-change in volume.yaml `minikube` to valid node name from `kubectl get nodes`
+change nodename in volume.yaml `minikube` to valid node name from `kubectl get nodes`
+
+## Helpful
 
 ```
 # access service from localhost
