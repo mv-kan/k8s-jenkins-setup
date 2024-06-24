@@ -7,11 +7,11 @@ metadata:
       metallb.universe.tf/loadBalancerIPs: 192.168.122.151
       prometheus.io/scrape: 'true'
       prometheus.io/path:   /
-      prometheus.io/port:   '80'
+      prometheus.io/port:   '8080'
 spec:
   selector:
     app: jenkins-server
   type: LoadBalancer
   ports:
     - port: 8080
-      targetPort: 80
+      targetPort: 8080
